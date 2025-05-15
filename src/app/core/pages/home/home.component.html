@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div class="category-bar">
+  <button *ngFor="let cat of categories"
+          [class.active]="cat.id === selectedCategoryId"
+          (click)="onSelectCategory(cat.id)">
+    {{ cat.category }}
+  </button>
+</div>
+
+<h2>Experiencias {{ selectedCategoryName }} inolvidables</h2>
+
+<div class="experience-grid">
+  <div class="card" *ngFor="let exp of experiences" (click)="navigateToDetail(exp)">
+    <h3>{{ exp.experience_name }}</h3>
+    <button class="fav-btn">♡</button>
+  </div>
+</div>

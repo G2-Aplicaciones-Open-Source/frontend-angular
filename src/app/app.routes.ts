@@ -28,6 +28,12 @@ export const routes: Routes = [
         path: 'favorites',
         loadComponent: () =>
           import("./core/pages/favs-management/favs-management.component").then(m => m.FavsManagementComponent)
+      },
+      {
+        path: ':city/:experience',
+        loadComponent: () =>
+          import("./core/pages/experience-detail/experience-detail.component")
+            .then(m => m.ExperienceDetailComponent)
       }
     ]
   },
