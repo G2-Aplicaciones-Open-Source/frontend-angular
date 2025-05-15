@@ -1,1 +1,8 @@
-<p>experience-detail works!</p>
+<div *ngIf="experience">
+  <h3>{{ experience.experience_name }}</h3>
+  <p>{{ experience.description }}</p>
+  <p>{{ experience.duration_text }}</p>
+  <p>{{ experience.meeting_point }}</p>
+  <button (click)="goBack()">Volver</button>
+</div>
+<div> esto n ofunciona aun</div>
