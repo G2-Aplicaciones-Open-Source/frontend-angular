@@ -7,139 +7,340 @@
     }
   ],
   "states": [
-    { "id": 1, "countries_id": 1, "state_name": "Lima",       "state_initials": "LIM" },
-    { "id": 2, "countries_id": 1, "state_name": "Cusco",      "state_initials": "CUS" },
-    { "id": 3, "countries_id": 1, "state_name": "Arequipa",   "state_initials": "ARE" },
-    { "id": 4, "countries_id": 1, "state_name": "Piura",      "state_initials": "PIU" },
-    { "id": 5, "countries_id": 1, "state_name": "Puno",       "state_initials": "PUN" }
+    {
+      "id": 1,
+      "countries_id": 1,
+      "state_name": "Lima",
+      "state_initials": "LIM"
+    },
+    {
+      "id": 2,
+      "countries_id": 1,
+      "state_name": "Cusco",
+      "state_initials": "CUS"
+    },
+    {
+      "id": 3,
+      "countries_id": 1,
+      "state_name": "Arequipa",
+      "state_initials": "ARE"
+    },
+    {
+      "id": 4,
+      "countries_id": 1,
+      "state_name": "Piura",
+      "state_initials": "PIU"
+    },
+    {
+      "id": 5,
+      "countries_id": 1,
+      "state_name": "Puno",
+      "state_initials": "PUN"
+    }
   ],
   "cities": [
-    { "id":  1, "states_id": 1, "city_name": "Provincia de Lima"       },
-    { "id":  2, "states_id": 2, "city_name": "Provincia del Cusco"     },
-    { "id":  3, "states_id": 3, "city_name": "Provincia de Arequipa"   },
-    { "id":  4, "states_id": 4, "city_name": "Provincia de Piura"      },
-    { "id":  5, "states_id": 5, "city_name": "Provincia de Puno"       },
-    { "id":  6, "states_id": 2, "city_name": "Provincia de Urubamba"   },
-    { "id":  7, "states_id": 3, "city_name": "Provincia de Caylloma"   },
-    { "id":  8, "states_id": 4, "city_name": "Provincia de Talara"     }
+    { "id": 1, "states_id": 1, "city_name": "Provincia de Lima" },
+    { "id": 2, "states_id": 2, "city_name": "Provincia del Cusco" },
+    { "id": 3, "states_id": 3, "city_name": "Provincia de Arequipa" },
+    { "id": 4, "states_id": 4, "city_name": "Provincia de Piura" },
+    { "id": 5, "states_id": 5, "city_name": "Provincia de Puno" },
+    { "id": 6, "states_id": 2, "city_name": "Provincia de Urubamba" },
+    { "id": 7, "states_id": 3, "city_name": "Provincia de Caylloma" },
+    { "id": 8, "states_id": 4, "city_name": "Provincia de Talara" }
   ],
   "districts": [
-    { "id":  1, "cities_id": 1, "district_name": "Miraflores"        		},
-    { "id":  2, "cities_id": 1, "district_name": "Barranco"          		},
-    { "id":  3, "cities_id": 1, "district_name": "Pueblo Libre"      		},
-    { "id":  4, "cities_id": 1, "district_name": "Surquillo"        		},
-    { "id":  5, "cities_id": 2, "district_name": "Wanchaq"          		},
-    { "id":  6, "cities_id": 2, "district_name": "San Sebastián"     		},
-    { "id":  7, "cities_id": 2, "district_name": "San Jerónimo"      		},
-    { "id":  8, "cities_id": 2, "district_name": "Cusco"             		},
-    { "id":  9, "cities_id": 3, "district_name": "Cercado de Arequipa"  	},
-    { "id": 10, "cities_id": 3, "district_name": "Yanahuara"       			},
-    { "id": 11, "cities_id": 3, "district_name": "Paucarpata" 				},
-    { "id": 12, "cities_id": 3, "district_name": "Sachaca"    				},
-    { "id": 13, "cities_id": 4, "district_name": "Piura Distrito"        	},
-    { "id": 14, "cities_id": 4, "district_name": "Castilla"              	},
-    { "id": 15, "cities_id": 4, "district_name": "Catacaos"              	},
-    { "id": 16, "cities_id": 4, "district_name": "Veintiséis de Octubre" 	},
-    { "id": 17, "cities_id": 5, "district_name": "Puno Distrito" 			},
-    { "id": 18, "cities_id": 5, "district_name": "Acora"         			},
-    { "id": 19, "cities_id": 5, "district_name": "Atuncolla"     			},
-    { "id": 20, "cities_id": 5, "district_name": "Capachica"     			},
-    { "id": 21, "cities_id": 6, "district_name": "Machu Picchu"     		},
-    { "id": 22, "cities_id": 7, "district_name": "Cabanaconde"     	    	},
-    { "id": 23, "cities_id": 8, "district_name": "Máncora"     	    		},
-    { "id": 24, "cities_id": 1, "district_name": "Cercado de Lima"      	},
-    { "id": 25, "cities_id": 6, "district_name": "Chinchero"     			}
-  ],
-  "categories": [
-    { "id": 1, "category": "Cultura"     },
-    { "id": 2, "category": "Gastronomía" },
-    { "id": 3, "category": "Naturaleza"  },
-    { "id": 4, "category": "Deporte"     }
+    { "id": 1, "cities_id": 1, "district_name": "Miraflores" },
+    { "id": 2, "cities_id": 1, "district_name": "Barranco" },
+    { "id": 3, "cities_id": 1, "district_name": "Pueblo Libre" },
+    { "id": 4, "cities_id": 1, "district_name": "Surquillo" },
+    { "id": 5, "cities_id": 2, "district_name": "Wanchaq" },
+    { "id": 6, "cities_id": 2, "district_name": "San Sebastián" },
+    { "id": 7, "cities_id": 2, "district_name": "San Jerónimo" },
+    { "id": 8, "cities_id": 2, "district_name": "Cusco" },
+    { "id": 9, "cities_id": 3, "district_name": "Cercado de Arequipa" },
+    { "id": 10, "cities_id": 3, "district_name": "Yanahuara" },
+    { "id": 11, "cities_id": 3, "district_name": "Paucarpata" },
+    { "id": 12, "cities_id": 3, "district_name": "Sachaca" },
+    { "id": 13, "cities_id": 4, "district_name": "Piura Distrito" },
+    { "id": 14, "cities_id": 4, "district_name": "Castilla" },
+    { "id": 15, "cities_id": 4, "district_name": "Catacaos" },
+    { "id": 16, "cities_id": 4, "district_name": "Veintiséis de Octubre" },
+    { "id": 17, "cities_id": 5, "district_name": "Puno Distrito" },
+    { "id": 18, "cities_id": 5, "district_name": "Acora" },
+    { "id": 19, "cities_id": 5, "district_name": "Atuncolla" },
+    { "id": 20, "cities_id": 5, "district_name": "Capachica" },
+    { "id": 21, "cities_id": 6, "district_name": "Machu Picchu" },
+    { "id": 22, "cities_id": 7, "district_name": "Cabanaconde" },
+    { "id": 23, "cities_id": 8, "district_name": "Máncora" },
+    { "id": 24, "cities_id": 1, "district_name": "Cercado de Lima" },
+    { "id": 25, "cities_id": 6, "district_name": "Chinchero" }
   ],
   "destinations": [
     {
-      "id":  1,
-      "category_id":   3,
-      "district_id":   21,
-      "destination_name": "Machu Picchu"
+      "id": 1,
+      "district_id": 21,
+      "destination_name": "Ciudadela Inca de Machu Picchu"
     },
     {
-      "id":  2,
-      "category_id":   1,
-      "district_id":   3,
+      "id": 2,
+      "district_id": 3,
       "destination_name": "Museo Larco"
     },
     {
-      "id":  3,
-      "category_id":   2,
-      "district_id":   4,
-      "destination_name": "Mercado de Surquillo"
+      "id": 3,
+      "district_id": 4,
+      "destination_name": "Mercado Nº 1 de Surquillo"
     },
     {
-      "id":  4,
-      "category_id":   3,
-      "district_id":   22,
+      "id": 4,
+      "district_id": 22,
       "destination_name": "Cañón del Colca"
     },
     {
-      "id":  5,
-      "category_id":   4,
-      "district_id":  23,
-      "destination_name": "Surf en Máncora"
+      "id": 5,
+      "district_id": 23,
+      "destination_name": "Playa de Máncora"
     },
     {
-      "id":  6,
-      "category_id":   1,
-      "district_id":   8,
-      "destination_name": "Inti Raymi en Cusco"
+      "id": 6,
+      "district_id": 8,
+      "destination_name": "Plaza de Armas de Cusco"
     },
     {
-      "id":  7,
-      "category_id":   4,
-      "district_id":   1,
-      "destination_name": "Parapente en Miraflores"
+      "id": 7,
+      "district_id": 1,
+      "destination_name": "Malecón de Miraflores"
     },
     {
-      "id":  8,
-      "category_id":   3,
-      "district_id":  10,
+      "id": 8,
+      "district_id": 10,
       "destination_name": "Mirador de Yanahuara"
     },
     {
-      "id":  9,
-      "category_id": 1,
+      "id": 9,
       "district_id": 9,
       "destination_name": "Monasterio de Santa Catalina"
     },
     {
       "id": 10,
-      "category_id": 1,
       "district_id": 24,
-      "destination_name": "Centro Histórico de Lima"
+      "destination_name": "Plaza Mayor de Lima"
     },
     {
       "id": 11,
-      "category_id": 2,
       "district_id": 17,
-      "destination_name": "Picantería típica de Puno"
+      "destination_name": "Isla de los Uros"
     },
     {
       "id": 12,
-      "category_id": 2,
-      "district_id":  10,
-      "destination_name": "Ruta del queso y vino en Yanahuara"
+      "district_id": 25,
+      "destination_name": "Sitio Arqueológico de Chinchero"
     },
     {
       "id": 13,
-      "category_id": 3,
-      "district_id":  25,
-      "destination_name": "Terrazas agrícolas de Chinchero"
+      "district_id": 1,
+      "destination_name": "Huaca Pucllana",
+      "description": "Centro ceremonial preinca en forma de pirámide truncada, perteneciente a la cultura Lima."
     },
     {
       "id": 14,
+      "district_id": 8,
+      "destination_name": "Qorikancha (Templo del Sol)",
+      "description": "Antiguo templo inca, base del Convento de Santo Domingo, dedicado al dios Sol (Inti)."
+    },
+    {
+      "id": 15,
+      "district_id": 20,
+      "destination_name": "Isla Taquile",
+      "description": "Isla en el Lago Titicaca conocida por su arte textil, declarado Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO."
+    }
+  ],
+  "categories": [
+    { "id": 1, "category": "Cultura" },
+    { "id": 2, "category": "Gastronomía" },
+    { "id": 3, "category": "Naturaleza" },
+    { "id": 4, "category": "Deporte" }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "category_id": 3,
+      "destination_id": 1,
+      "city_slug": "urubamba",
+      "experience_name": "Tour Guiado a Machu Picchu al Amanecer",
+      "description": "Vive la magia de Machu Picchu con los primeros rayos del sol. Incluye guía experto.",
+      "duration_text": "Aprox. 6 horas (incluyendo transporte desde Aguas Calientes)",
+      "meeting_point": "Estación de buses de Aguas Calientes, Machu Picchu Pueblo."
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "destination_id": 3,
+      "city_slug": "lima",
+      "experience_name": "Tour Gastronómico y Clase de Cocina en Mercado de Surquillo",
+      "description": "Descubre los secretos de la cocina peruana. Visita el mercado local y aprende a preparar platos emblemáticos.",
+      "duration_text": "Aprox. 4 horas",
+      "meeting_point": "Entrada principal del Mercado Nº 1 de Surquillo, Av. Paseo de la República cdra. 52."
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "destination_id": 2,
+      "city_slug": "lima",
+      "experience_name": "Visita Guiada al Museo Larco y sus Tesoros",
+      "description": "Explora una de las mejores colecciones de arte precolombino del Perú, incluyendo su famosa galería erótica.",
+      "duration_text": "Aprox. 2.5 horas",
+      "meeting_point": "Recepción principal del Museo Larco, Av. Simón Bolívar 1515, Pueblo Libre."
+    },
+    {
+      "id": 4,
+      "category_id": 3,
+      "destination_id": 4,
+      "city_slug": "caylloma",
+      "experience_name": "Observación de Cóndores en el Cañón del Colca (Full Day)",
+      "description": "Maravíllate con el vuelo del cóndor andino en su hábitat natural y los impresionantes paisajes del cañón.",
+      "duration_text": "Full Day (aprox. 12-14 horas desde Arequipa)",
+      "meeting_point": "Recojo en hoteles céntricos de Arequipa (a coordinar)."
+    },
+    {
+      "id": 5,
       "category_id": 4,
-      "district_id":  17,
-      "destination_name": "Regata de balsas en el Titicaca"
+      "destination_id": 5,
+      "city_slug": "talara",
+      "experience_name": "Clase de Surf para Principiantes en Máncora",
+      "description": "Aprende a correr tus primeras olas en las cálidas aguas de Máncora con instructores certificados.",
+      "duration_text": "2 horas (1 hora de instrucción, 1 hora de práctica libre)",
+      "meeting_point": "Escuela de surf 'Olas Perú', frente al malecón de Máncora."
+    },
+    {
+      "id": 6,
+      "category_id": 1,
+      "destination_id": 6,
+      "city_slug": "cusco",
+      "experience_name": "Recorrido Histórico por la Plaza de Armas de Cusco y Alrededores",
+      "description": "Descubre la historia inca y colonial del corazón de Cusco, visitando la Catedral y calles emblemáticas.",
+      "duration_text": "Aprox. 3 horas",
+      "meeting_point": "Pileta central de la Plaza de Armas de Cusco."
+    },
+    {
+      "id": 7,
+      "category_id": 4,
+      "destination_id": 7,
+      "city_slug": "lima",
+      "experience_name": "Vuelo en Parapente Biplaza sobre la Costa Verde (Miraflores)",
+      "description": "Siente la adrenalina y disfruta de vistas panorámicas de la costa de Lima desde el aire.",
+      "duration_text": "10-15 minutos de vuelo (preparación adicional)",
+      "meeting_point": "Parque Antonio Raimondi, Malecón de Miraflores (al lado del Faro)."
+    },
+    {
+      "id": 8,
+      "category_id": 1,
+      "destination_id": 8,
+      "city_slug": "arequipa",
+      "experience_name": "Tour Fotográfico al Atardecer en el Mirador de Yanahuara",
+      "description": "Captura las mejores vistas del volcán Misti y la ciudad de Arequipa mientras el sol se pone.",
+      "duration_text": "Aprox. 2 horas",
+      "meeting_point": "Arcos del Mirador de Yanahuara, Arequipa."
+    },
+    {
+      "id": 9,
+      "category_id": 1,
+      "destination_id": 9,
+      "city_slug": "arequipa",
+      "experience_name": "Viaje en el Tiempo: Monasterio de Santa Catalina",
+      "description": "Sumérgete en la vida conventual de siglos pasados recorriendo esta impresionante ciudadela religiosa.",
+      "duration_text": "Aprox. 2 - 3 horas",
+      "meeting_point": "Entrada principal del Monasterio de Santa Catalina, Calle Santa Catalina 301, Arequipa."
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "destination_id": 10,
+      "city_slug": "lima",
+      "experience_name": "Paseo Guiado por el Centro Histórico de Lima, Patrimonio de la Humanidad",
+      "description": "Explora la Plaza Mayor, la Catedral, el Palacio de Gobierno y las catacumbas del Convento de San Francisco.",
+      "duration_text": "Aprox. 3.5 horas",
+      "meeting_point": "Pileta central de la Plaza Mayor de Lima."
+    },
+    {
+      "id": 11,
+      "category_id": 3,
+      "destination_id": 11,
+      "city_slug": "puno",
+      "experience_name": "Excursión a las Islas Flotantes de los Uros en el Lago Titicaca",
+      "description": "Conoce el estilo de vida ancestral de la comunidad Uru en sus islas hechas de totora.",
+      "duration_text": "Medio día (aprox. 3-4 horas desde Puno)",
+      "meeting_point": "Puerto principal de Puno (embarcadero turístico)."
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "destination_id": 12,
+      "city_slug": "urubamba",
+      "experience_name": "Tejidos y Tradición en el Mercado de Chinchero",
+      "description": "Visita el colorido mercado de Chinchero, observa demostraciones de tejido tradicional y explora su sitio arqueológico.",
+      "duration_text": "Aprox. 4 horas (incluyendo viaje desde Cusco)",
+      "meeting_point": "Recojo en hoteles céntricos de Cusco (a coordinar) o punto de encuentro en Plaza de Armas de Chinchero."
+    },
+    {
+      "id": 13,
+      "category_id": 2,
+      "destination_id": 10,
+      "city_slug": "lima",
+      "experience_name": "Tour de Comida Callejera Nocturno por el Centro de Lima",
+      "description": "Degusta anticuchos, picarones, emoliente y otras delicias callejeras en un recorrido seguro y guiado.",
+      "duration_text": "Aprox. 3 horas",
+      "meeting_point": "Arcos Chinos del Barrio Chino, Calle Capón, Lima."
+    },
+    {
+      "id": 14,
+      "category_id": 3,
+      "destination_id": 15,
+      "city_slug": "puno",
+      "experience_name": "Cultura Viva en la Isla Taquile - Lago Titicaca (Full Day)",
+      "description": "Visita la isla de Taquile, conoce a sus habitantes, su famoso arte textil y disfruta de paisajes únicos del Titicaca.",
+      "duration_text": "Full Day (aprox. 9-10 horas desde Puno)",
+      "meeting_point": "Puerto principal de Puno (embarcadero turístico)."
+    },
+    {
+      "id": 15,
+      "category_id": 1,
+      "destination_id": 13,
+      "city_slug": "lima",
+      "experience_name": "Explorando la Antigua Lima: Visita a Huaca Pucllana",
+      "description": "Descubre este importante centro ceremonial preinca en medio de la moderna Miraflores.",
+      "duration_text": "Aprox. 2 horas",
+      "meeting_point": "Entrada principal de Huaca Pucllana, Calle General Borgoño cdra. 8, Miraflores."
+    },
+    {
+      "id": 16,
+      "category_id": 4,
+      "destination_id": 4,
+      "city_slug": "caylloma",
+      "experience_name": "Trekking Corto en el Cañón del Colca: Miradores y Naturaleza",
+      "description": "Una caminata suave para disfrutar de cerca la flora, fauna y vistas espectaculares del Cañón del Colca.",
+      "duration_text": "Aprox. 3 horas de caminata",
+      "meeting_point": "Mirador Cruz del Cóndor (o punto de inicio de sendero a coordinar)."
+    },
+    {
+      "id": 17,
+      "category_id": 2,
+      "destination_id": 8,
+      "city_slug": "arequipa",
+      "experience_name": "Sabores de Arequipa: Picantería y Postres en Yanahuara",
+      "description": "Disfruta de un almuerzo tradicional en una picantería de Yanahuara y prueba el famoso queso helado.",
+      "duration_text": "Aprox. 3 horas (incluyendo almuerzo)",
+      "meeting_point": "Plaza Principal de Yanahuara, Arequipa."
+    },
+    {
+      "id": 18,
+      "category_id": 1,
+      "destination_id": 14,
+      "city_slug": "cusco",
+      "experience_name": "Esplendor Inca: Visita al Qorikancha y Convento de Santo Domingo",
+      "description": "Admira la fina arquitectura inca del Templo del Sol y su superposición con la construcción colonial.",
+      "duration_text": "Aprox. 1.5 horas",
+      "meeting_point": "Entrada del Qorikancha, Av. El Sol, Cusco."
     }
   ]
 }
