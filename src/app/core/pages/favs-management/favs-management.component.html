@@ -1,1 +1,23 @@
-<p>favs-management works!</p>
+<div class="favs-container">
+  <h2>Tus Favoritos</h2>
+
+  <ng-container *ngIf="favorites.length; else noFavs">
+    <ul>
+      <li *ngFor="let fav of favorites">
+        <span>Experiencia #{{ fav.experience_id }}</span>
+
+        <button (click)="navigateToExperience(fav)">
+          Ver detalles
+        </button>
+
+        <button (click)="removeFavorite(fav)">
+          Quitar
+        </button>
+      </li>
+    </ul>
+  </ng-container>
+
+  <ng-template #noFavs>
+    <p>No tienes experiencias agregadas como favoritas.</p>
+  </ng-template>
+</div>

@@ -502,6 +502,21 @@
       "experience_id": 8,
       "tourist_id": 1,
       "id": 4
+    },
+    {
+      "experience_id": 3,
+      "tourist_id": 1,
+      "id": 5
+    },
+    {
+      "experience_id": 15,
+      "tourist_id": 1,
+      "id": 6
+    },
+    {
+      "experience_id": 18,
+      "tourist_id": 1,
+      "id": 7
     }
   ],
   "tourists": [

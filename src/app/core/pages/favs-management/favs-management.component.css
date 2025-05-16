@@ -1,0 +1,89 @@
+
+:root {
+  --bg-light: #f9f9f9;
+  --bg-card: #ffffff;
+  --primary: #3f51b5;
+  --primary-dark: #303f9f;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border: #e0e0e0;
+  --hover: #f1f1f1;
+}
+
+.favs-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.favs-container h2 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+  font-size: 1.75rem;
+}
+
+.fav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-card);
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.fav-item:hover {
+  background-color: var(--hover);
+}
+
+.fav-item .fav-label {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.fav-item .btn {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-detail {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn-detail:hover {
+  background-color: var(--primary-dark);
+}
+
+.btn-remove {
+  background-color: #e57373;
+  color: #fff;
+}
+
+.btn-remove:hover {
+  background-color: #ef5350;
+}
+
+.no-favs {
+  text-align: center;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
