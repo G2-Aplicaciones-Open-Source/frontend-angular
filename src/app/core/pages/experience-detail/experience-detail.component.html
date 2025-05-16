@@ -1,1 +1,11 @@
-<p>experience-detail works!</p>
+<div *ngIf="experience">
+  <h2>{{ experience.experience_name }}</h2>
+  <p><strong>{{ 'DETAIL.DESCRIPTION' | translate }}:</strong> {{ experience.description }}</p>
+  <p><strong>{{ 'DETAIL.DURATION' | translate }}:</strong> {{ experience.duration_text }}.</p>
+  <p><strong>{{ 'DETAIL.MEETING_POINT' | translate }}:</strong> {{ experience.meeting_point }}</p>
+  <p><strong>{{ 'DETAIL.CITY' | translate }}:</strong> {{ experience.city_slug }}</p>
+</div>
+
+<div *ngIf="!experience">
+  <p>{{ 'DETAIL.NOT_FOUND' | translate }}</p>
+</div>

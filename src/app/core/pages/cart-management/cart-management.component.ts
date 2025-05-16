@@ -4,11 +4,12 @@ import { Experience } from '../../model/experience.entity';
 import { Availability } from '../../model/availability.entity';
 import { ExperienceService } from '../../services/experience.service';
 import {FormsModule} from '@angular/forms';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-cart-management',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, TranslatePipe],
   templateUrl: './cart-management.component.html',
   styleUrls: ['./cart-management.component.css']
 })

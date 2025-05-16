@@ -489,16 +489,6 @@
   ],
   "favorites": [
     {
-      "id": 1,
-      "experience_id": 2,
-      "tourist_id": 1
-    },
-    {
-      "experience_id": 6,
-      "tourist_id": 1,
-      "id": 3
-    },
-    {
       "experience_id": 8,
       "tourist_id": 1,
       "id": 4
@@ -517,6 +507,31 @@
       "experience_id": 18,
       "tourist_id": 1,
       "id": 7
+    },
+    {
+      "experience_id": 9,
+      "tourist_id": 1,
+      "id": 8
+    },
+    {
+      "experience_id": 16,
+      "tourist_id": 1,
+      "id": 9
+    },
+    {
+      "experience_id": 7,
+      "tourist_id": 1,
+      "id": 10
+    },
+    {
+      "experience_id": 7,
+      "tourist_id": 1,
+      "id": 11
+    },
+    {
+      "experience_id": 5,
+      "tourist_id": 1,
+      "id": 12
     }
   ],
   "tourists": [

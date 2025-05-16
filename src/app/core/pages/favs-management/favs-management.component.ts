@@ -4,11 +4,12 @@ import { Favorite } from '../../model/favorite.entity';
 import { FavoritesService } from '../../services/favorites.service';
 import { Experience } from '../../model/experience.entity';
 import { Router } from '@angular/router';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-favs-management',
   standalone: true,
-  imports: [ CommonModule ],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './favs-management.component.html',
   styleUrls: ['./favs-management.component.css']
 })

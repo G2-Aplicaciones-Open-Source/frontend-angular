@@ -1,0 +1,43 @@
+{
+  "HEADER": {
+    "FAVES": "Favoritos",
+    "CART": "Carrito",
+    "WELCOME": "Bienvenido",
+    "PROFILE": "Perfil",
+    "SIGN_OUT": "Cerrar sesión"
+  },
+  "PROFILE": {
+    "PERSONAL_DATA": "Datos personales",
+    "FULL_NAME": "Nombre completo",
+    "CONTACT_INFO": "Información de contacto",
+    "PHONE": "Teléfono"
+  },
+  "FAVS": {
+    "TITLE": "Tus Favoritos",
+    "EXPERIENCE_ID": "Experiencia #{{ id }}",
+    "SEE_DETAILS": "Ver detalles",
+    "REMOVE": "Quitar",
+    "EMPTY": "No tienes experiencias agregadas como favoritas."
+  },
+  "DETAIL": {
+    "DESCRIPTION": "Descripción",
+    "DURATION": "Duración",
+    "MEETING_POINT": "Punto de encuentro",
+    "CITY": "Ciudad",
+    "NOT_FOUND": "No se encontró experiencia guardada."
+  },
+  "CART": {
+    "TITLE": "Carrito",
+    "DESCRIPTION": "Descripción",
+    "DURATION": "Duración",
+    "MEETING_POINT": "Punto de encuentro",
+    "CATEGORY_ID": "ID de categoría",
+    "DETAILS_TITLE": "Detalles",
+    "START": "Inicio",
+    "END": "Fin",
+    "CAPACITY": "Capacidad",
+    "TICKET_TYPE": "Tipo de ticket",
+    "PRICE": "Precio",
+    "CONFIRM": "Confirmar compra"
+  }
+}

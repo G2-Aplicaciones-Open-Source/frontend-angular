@@ -1,1 +1,21 @@
-<p>profile-management works!</p>
+<div class="page-container">
+  <div class="tourists-container">
+    <div class="tourist-card" *ngFor="let tourist of tourists">
+      <h3>{{ 'PROFILE.PERSONAL_DATA' | translate }}</h3>
+      <div class="card-section">
+        <p>
+          <strong>{{ 'PROFILE.FULL_NAME' | translate }}:</strong><br>
+          {{ tourist.first_name }} {{ tourist.last_name }}
+        </p>
+      </div>
+
+      <h3>{{ 'PROFILE.CONTACT_INFO' | translate }}</h3>
+      <div class="card-section">
+        <p>
+          <strong>{{ 'PROFILE.PHONE' | translate }}:</strong><br>
+          {{ tourist.phone_number }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
