@@ -6,6 +6,7 @@ import { Availability } from '../model/availability.entity';
 import { environment } from '../../../environments/environment.development';
 import { Experience } from '../model/experience.entity';
 import { Category } from '../model/category.entity';
+import {Favorite} from '../model/favorite.entity';
 
 @Injectable({
   providedIn: 'root'
@@ -21,5 +22,8 @@ export class ExperienceService {
   }
   getAvailabilities(): Observable<Availability[]> {
     return this.http.get<Availability[]>(`${this.baseUrl}/availability`); // o la URL real
+  }
+  getExperienceById(experienceId: number): Observable<Favorite[]> {
+    return this.http.get<Favorite[]>(`${this.baseUrl}?experience_id=${experienceId}`);
   }
 }

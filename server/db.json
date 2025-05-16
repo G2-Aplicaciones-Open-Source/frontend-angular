@@ -502,6 +502,21 @@
       "experience_id": 8,
       "tourist_id": 1,
       "id": 4
+    },
+    {
+      "experience_id": 3,
+      "tourist_id": 1,
+      "id": 5
+    },
+    {
+      "experience_id": 15,
+      "tourist_id": 1,
+      "id": 6
+    },
+    {
+      "experience_id": 18,
+      "tourist_id": 1,
+      "id": 7
     }
   ],
   "tourists": [
@@ -534,8 +549,16 @@
       "capacity": 30,
       "status": "available",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 50.00 },
-        { "id": 2, "name": "VIP", "price": 100.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 50
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 100
+        }
       ]
     },
     {
@@ -547,8 +570,16 @@
       "capacity": 25,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 40.00 },
-        { "id": 2, "name": "VIP", "price": 90.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 40
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 90
+        }
       ]
     },
     {
@@ -560,8 +591,16 @@
       "capacity": 20,
       "status": "available",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 45.00 },
-        { "id": 2, "name": "VIP", "price": 85.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 45
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 85
+        }
       ]
     },
     {
@@ -573,8 +612,16 @@
       "capacity": 25,
       "status": "full",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 35.00 },
-        { "id": 2, "name": "VIP", "price": 70.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 35
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 70
+        }
       ]
     },
     {
@@ -586,8 +633,16 @@
       "capacity": 20,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 30.00 },
-        { "id": 2, "name": "VIP", "price": 60.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 30
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 60
+        }
       ]
     },
     {
@@ -599,8 +654,16 @@
       "capacity": 30,
       "status": "available",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 55.00 },
-        { "id": 2, "name": "VIP", "price": 105.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 55
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 105
+        }
       ]
     },
     {
@@ -612,8 +675,16 @@
       "capacity": 22,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 38.00 },
-        { "id": 2, "name": "VIP", "price": 75.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 38
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 75
+        }
       ]
     },
     {
@@ -625,8 +696,16 @@
       "capacity": 25,
       "status": "full",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 42.00 },
-        { "id": 2, "name": "VIP", "price": 82.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 42
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 82
+        }
       ]
     },
     {
@@ -638,8 +717,16 @@
       "capacity": 25,
       "status": "available",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 60.00 },
-        { "id": 2, "name": "VIP", "price": 110.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 60
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 110
+        }
       ]
     },
     {
@@ -651,8 +738,16 @@
       "capacity": 15,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 48.00 },
-        { "id": 2, "name": "VIP", "price": 95.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 48
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 95
+        }
       ]
     },
     {
@@ -664,8 +759,16 @@
       "capacity": 30,
       "status": "available",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 52.00 },
-        { "id": 2, "name": "VIP", "price": 102.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 52
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 102
+        }
       ]
     },
     {
@@ -677,8 +780,16 @@
       "capacity": 20,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 36.00 },
-        { "id": 2, "name": "VIP", "price": 76.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 36
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 76
+        }
       ]
     },
     {
@@ -690,8 +801,16 @@
       "capacity": 18,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 47.00 },
-        { "id": 2, "name": "VIP", "price": 88.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 47
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 88
+        }
       ]
     },
     {
@@ -703,8 +822,16 @@
       "capacity": 20,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 39.00 },
-        { "id": 2, "name": "VIP", "price": 79.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 39
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 79
+        }
       ]
     },
     {
@@ -716,8 +843,16 @@
       "capacity": 25,
       "status": "full",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 34.00 },
-        { "id": 2, "name": "VIP", "price": 68.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 34
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 68
+        }
       ]
     },
     {
@@ -729,8 +864,16 @@
       "capacity": 20,
       "status": "available",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 49.00 },
-        { "id": 2, "name": "VIP", "price": 92.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 49
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 92
+        }
       ]
     },
     {
@@ -742,8 +885,16 @@
       "capacity": 15,
       "status": "limited",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 46.00 },
-        { "id": 2, "name": "VIP", "price": 86.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 46
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 86
+        }
       ]
     },
     {
@@ -755,8 +906,16 @@
       "capacity": 20,
       "status": "available",
       "ticket_types": [
-        { "id": 1, "name": "General", "price": 41.00 },
-        { "id": 2, "name": "VIP", "price": 81.00 }
+        {
+          "id": 1,
+          "name": "General",
+          "price": 41
+        },
+        {
+          "id": 2,
+          "name": "VIP",
+          "price": 81
+        }
       ]
     }
   ]
