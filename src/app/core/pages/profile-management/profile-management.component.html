@@ -1,1 +1,15 @@
-<p>profile-management works!</p>
+<div class="page-container">
+  <div class="tourists-container">
+    <div class="tourist-card" *ngFor="let tourist of tourists">
+      <h3>Datos personales</h3>
+      <div class="card-section">
+        <p><strong>Nombre completo:</strong><br>{{ tourist.first_name }} {{ tourist.last_name }}</p>
+      </div>
+
+      <h3>Información de contacto</h3>
+      <div class="card-section">
+        <p><strong>Teléfono:</strong><br>{{ tourist.phone_number }}</p>
+      </div>
+    </div>
+  </div>
+</div>
