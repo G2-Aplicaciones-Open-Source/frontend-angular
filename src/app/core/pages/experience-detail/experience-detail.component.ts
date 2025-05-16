@@ -1,22 +1,11 @@
-import { NgIf } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { Experience } from '../../model/experience.entity';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-experience-detail',
+  imports: [],
   templateUrl: './experience-detail.component.html',
-  imports: [
-    NgIf
-  ],
-  styleUrls: ['./experience-detail.component.css']
+  styleUrl: './experience-detail.component.css'
 })
-export class ExperienceDetailComponent implements OnInit {
-  experience!: Experience;
+export class ExperienceDetailComponent {
 
-  ngOnInit(): void {
-    const stored = localStorage.getItem('detail');
-    if (stored) {
-      this.experience = JSON.parse(stored);
-    }
-  }
 }
