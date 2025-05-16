@@ -1,8 +1,43 @@
 {
-  "categories": {
-    "category_1": "Culture",
-    "category_2": "Food",
-    "category_3": "Nature",
-    "category_4": "Sports"
+  "HEADER": {
+    "FAVES": "Faves",
+    "CART": "Cart",
+    "WELCOME": "Welcome",
+    "PROFILE": "Profile",
+    "SIGN_OUT": "Sign Out"
+  },
+  "PROFILE": {
+    "PERSONAL_DATA": "Personal Information",
+    "FULL_NAME": "Full Name",
+    "CONTACT_INFO": "Contact Information",
+    "PHONE": "Phone Number"
+  },
+  "FAVS": {
+    "TITLE": "Your Favorites",
+    "EXPERIENCE_ID": "Experience #{{ id }}",
+    "SEE_DETAILS": "See details",
+    "REMOVE": "Remove",
+    "EMPTY": "You haven't added any favorite experiences yet."
+  },
+  "DETAIL": {
+    "DESCRIPTION": "Description",
+    "DURATION": "Duration",
+    "MEETING_POINT": "Meeting Point",
+    "CITY": "City",
+    "NOT_FOUND": "No saved experience found."
+  },
+  "CART": {
+    "TITLE": "Cart",
+    "DESCRIPTION": "Description",
+    "DURATION": "Duration",
+    "MEETING_POINT": "Meeting Point",
+    "CATEGORY_ID": "Category ID",
+    "DETAILS_TITLE": "Details",
+    "START": "Start",
+    "END": "End",
+    "CAPACITY": "Capacity",
+    "TICKET_TYPE": "Ticket Type",
+    "PRICE": "Price",
+    "CONFIRM": "Confirm Purchase"
   }
 }

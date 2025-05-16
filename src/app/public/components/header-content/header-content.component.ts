@@ -7,6 +7,8 @@ import {NgIf, NgOptimizedImage} from '@angular/common';
 
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 import {Router, RouterModule} from '@angular/router';
+import { LanguageSwitcherComponent} from '../language-switcher/language-switcher.component';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header-content',
@@ -19,6 +21,8 @@ import {Router, RouterModule} from '@angular/router';
     RouterModule,
     NgOptimizedImage,
     NgIf,
+    LanguageSwitcherComponent,
+    TranslatePipe,
   ],
   templateUrl: './header-content.component.html',
   styleUrl: './header-content.component.css'

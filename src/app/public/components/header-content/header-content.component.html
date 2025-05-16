@@ -25,13 +25,15 @@
   <div class="nav-links" [class.is-mobile]="isMobile">
     <a mat-button routerLink="/favorites" routerLinkActive="active-link">
       <mat-icon>favorite</mat-icon>
-      <span>Faves</span>
+      <span>{{ 'HEADER.FAVES' | translate }}</span>
     </a>
     <a mat-button routerLink="/cart" routerLinkActive="active-link">
       <mat-icon>shopping_cart</mat-icon>
-      <span>Cart</span>
+      <span>{{ 'HEADER.CART' | translate }}</span>
     </a>
   </div>
+
+  <app-language-switcher></app-language-switcher>
 
   <!-- Menu button - Always visible -->
   <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="User options">
@@ -41,15 +43,15 @@
     <ng-container>
       <button mat-menu-item disabled>
         <mat-icon>person</mat-icon>
-        <span>Welcome, {{ currentEmail }}</span>
+        <span>{{ 'HEADER.WELCOME' | translate }}, {{ currentEmail }}</span>
       </button>
       <button mat-menu-item (click)="goToProfile()">
         <mat-icon>manage_accounts</mat-icon>
-        <span>Profile</span>
+        <span>{{ 'HEADER.PROFILE' | translate }}</span>
       </button>
       <button mat-menu-item (click)="onSignOut()">
         <mat-icon>logout</mat-icon>
-        <span>Sign Out</span>
+        <span>{{ 'HEADER.SIGN_OUT' | translate }}</span>
       </button>
     </ng-container>
   </mat-menu>
