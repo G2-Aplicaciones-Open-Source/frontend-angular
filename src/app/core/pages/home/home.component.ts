@@ -55,6 +55,7 @@ export class HomeComponent implements OnInit {
 
   navigateToDetail(exp: Experience): void {
     const citySlug = this.generateSlug(exp.city_slug || 'ciudad-ejemplo');
+    localStorage.setItem('detail', JSON.stringify(exp));
     this.router.navigate([`/${citySlug}/${exp.slug}`]).then();
   }
 }

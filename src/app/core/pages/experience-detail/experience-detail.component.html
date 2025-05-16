@@ -1,13 +1,11 @@
-<div *ngIf="isLoading">Cargando detalles de la experiencia...</div>
-
-<div *ngIf="error && !isLoading">
-  <p>No se pudo cargar la experiencia o no se encontró.</p>
+<div *ngIf="experience">
+  <h2>{{ experience.experience_name }}</h2>
+  <p><strong>Descripción:</strong> {{ experience.description }}</p>
+  <p><strong>Duración:</strong> {{ experience.duration_text }}.</p>
+  <p><strong>Punto de encuentro:</strong> {{ experience.meeting_point }}</p>
+  <p><strong>Ciudad:</strong> {{ experience.city_slug }}</p>
 </div>
 
-<div *ngIf="experience && !isLoading && !error">
-  <h2>{{ experience.experience_name }}</h2>
-  <p><strong>Ciudad:</strong> {{ experience.city_slug }}</p>
-  <p>{{ experience.description }}</p>
-  <p><strong>Duración:</strong> {{ experience.duration_text }}</p>
-  <p><strong>Punto de encuentro:</strong> {{ experience.meeting_point }}</p>
+<div *ngIf="!experience">
+  <p>No se encontró experiencia guardada.</p>
 </div>
