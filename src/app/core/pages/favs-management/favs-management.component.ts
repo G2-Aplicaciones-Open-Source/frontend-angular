@@ -32,6 +32,7 @@ export class FavsManagementComponent implements OnInit {
       .subscribe(favs => this.favorites = favs);
   }
 
+
   navigateToExperience(fav: Favorite): void {
 
     this.router.navigate([`/experiences/${fav.experience_id}`]);

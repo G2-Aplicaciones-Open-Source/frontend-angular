@@ -1,6 +1,7 @@
 <div class="cart-container">
   <h2>{{ 'CART.TITLE' | translate }}</h2>
 
+
   <div class="cart-content">
     <div class="card" *ngFor="let item of cartItems" (click)="navigateToDetail(item)">
       <h3>{{ item.experience_name }}</h3>

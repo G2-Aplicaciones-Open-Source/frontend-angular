@@ -27,6 +27,7 @@ export class CartManagementComponent implements OnInit {
         this.experienceService.getAvailabilities().subscribe(availabilities => {
           // Filtramos solo las disponibilidades que coincidan con la experiencia
           this.availabilities = availabilities.filter(a => a.experiences_id === expId);
+
         });
       }
     });

@@ -12,6 +12,7 @@ import {TranslatePipe} from '@ngx-translate/core';
   ],
   styleUrls: ['./experience-detail.component.css']
 })
+
 export class ExperienceDetailComponent implements OnInit {
   experience!: Experience;
 
