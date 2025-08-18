@@ -1,0 +1,35 @@
+<div class="cart-container">
+  <h2>{{ 'CART.TITLE' | translate }}</h2>
+
+
+  <div class="cart-content">
+    <div class="card" *ngFor="let item of cartItems" (click)="navigateToDetail(item)">
+      <h3>{{ item.experience_name }}</h3>
+      <p><strong>{{ 'CART.DESCRIPTION' | translate }}:</strong> {{ item.description }}</p>
+      <p><strong>{{ 'CART.DURATION' | translate }}:</strong> {{ item.duration_text }}</p>
+      <p><strong>{{ 'CART.MEETING_POINT' | translate }}:</strong> {{ item.meeting_point }}</p>
+      <p><strong>{{ 'CART.CATEGORY_ID' | translate }}:</strong> {{ item.category_id }}</p>
+    </div>
+
+    <div class="details-box" *ngIf="cartItems.length > 0">
+      <h3>{{ 'CART.DETAILS_TITLE' | translate }}</h3>
+
+      <ng-container *ngIf="cartItems[0]?.id as experienceId">
+        <ng-container *ngIf="getAvailabilityByExperienceId(experienceId) as availability">
+          <p><strong>{{ 'CART.START' | translate }}:</strong> {{ availability.start_datetime }}</p>
+          <p><strong>{{ 'CART.END' | translate }}:</strong> {{ availability.end_datetime }}</p>
+          <p><strong>{{ 'CART.CAPACITY' | translate }}:</strong> {{ availability.capacity }}</p>
+
+          <div *ngFor="let ticket of availability.ticket_types">
+            <p><strong>{{ 'CART.TICKET_TYPE' | translate }}:</strong> {{ ticket.name }}</p>
+            <p><strong>{{ 'CART.PRICE' | translate }}:</strong> S/ {{ ticket.price }}</p>
+          </div>
+        </ng-container>
+      </ng-container>
+
+      <button (click)="confirmPurchase()" class="confirm-btn">
+        {{ 'CART.CONFIRM' | translate }}
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="favs-container">
+  <h2>{{ 'FAVS.TITLE' | translate }}</h2>
+
+  <ng-container *ngIf="favorites.length; else noFavs">
+    <ul>
+      <li *ngFor="let fav of favorites">
+        <span>{{ 'FAVS.EXPERIENCE_ID' | translate:{ id: fav.experience_id } }}</span>
+
+        <button (click)="navigateToExperience(fav)">
+          {{ 'FAVS.SEE_DETAILS' | translate }}
+        </button>
+
+        <button (click)="removeFavorite(fav)">
+          {{ 'FAVS.REMOVE' | translate }}
+        </button>
+      </li>
+    </ul>
+  </ng-container>
+
+
+  <ng-template #noFavs>
+    <p>{{ 'FAVS.EMPTY' | translate }}</p>
+  </ng-template>
+</div>
